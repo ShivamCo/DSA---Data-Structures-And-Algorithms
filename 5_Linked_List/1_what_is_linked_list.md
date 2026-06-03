@@ -1,4 +1,3 @@
-
 # 📚 Linked List
 
 A **Linked List** is a linear data structure in which elements are stored in  **non-contiguous memory locations** . Unlike arrays, linked list elements (nodes) do not need to be stored next to each other in memory.
@@ -154,39 +153,3 @@ A Circular Doubly Linked List is a Doubly Linked List where:
 * Traversal in both directions.
 * No `None` references.
 * Frequently used in navigation systems and playlists.
-
----
-
-# ⚖️ Array vs Linked List
-
-| Feature             | Array      | Linked List       |
-| ------------------- | ---------- | ----------------- |
-| Memory Allocation   | Contiguous | Non-Contiguous    |
-| Random Access       | ✅ O(1)    | ❌ O(n)           |
-| Insertion at Middle | ❌ O(n)    | ✅ O(1)*          |
-| Deletion at Middle  | ❌ O(n)    | ✅ O(1)*          |
-| Dynamic Size        | ❌ Limited | ✅ Dynamic        |
-| Extra Memory        | ❌ No      | ✅ Yes (Pointers) |
-
-> *Insertion and deletion are O(1) when the position/node is already known.*
-
----
-
-# 🧠 Interview Tips
-
-### Common Questions
-
-1. What is a Linked List?
-2. Difference between Array and Linked List?
-3. Why is insertion faster in a Linked List?
-4. What is the difference between Singly and Doubly Linked Lists?
-5. What is a Circular Linked List?
-6. How do you detect a cycle in a Linked List?
-7. Reverse a Linked List.
-8. Find the middle node of a Linked List.
-
----
-
-# 🚀 Key Takeaway
-
-A **Linked List** is a dynamic linear data structure where nodes are connected using references. It provides efficient insertion and deletion operations but sacrifices fast random access available in arrays.
