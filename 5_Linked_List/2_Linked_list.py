@@ -27,7 +27,6 @@ class SinglyLinkedList:
                 
             t1 = t1.next
 
-
     def insertAtEnd(self, value):
         temp = Node(value)
 
@@ -85,7 +84,7 @@ obj.insertAtEnd(30)
 
 obj.insertAtBegn(21)
 
-obj.insertAtMid(211, 20) # 211 after 20(not index element)
+obj.insertAtMid(211, 2) # 211 after 20(not index element)
 
 obj.deleteElement(30)
 
